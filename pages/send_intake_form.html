@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Send intake form </title>
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon_io/red1.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/styles/sendintakeform.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+  <div class="grid">
+ <!--  Header Header Header Header Header Header Header Header Header Header Header -->
+ <header class="header">
+  <i class="fas fa-bars header__menu"></i>
+  <div class="header__search">
+    <input class="header__input" placeholder="Search..." />
+  </div>
+  <div class="header__avatar">
+    <div class="dropdown">
+      <ul class="dropdown__list">
+        <li class="dropdown__list-item">
+          <span class="dropdown__icon"><i class="far fa-user"></i></span>
+          <span class="dropdown__title">my profile</span>
+        </li>
+        <li class="dropdown__list-item">
+          <span class="dropdown__icon"><i class="fas fa-clipboard-list"></i></span>
+          <span class="dropdown__title">my account</span>
+        </li>
+        <li class="dropdown__list-item">
+          <span class="dropdown__icon"><i class="fas fa-sign-out-alt"></i></span>
+          <span class="dropdown__title">log out</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+<!--  Header Header Header Header Header Header Header Header Header Header Header -->
+
+<!--  Side nav Side nav Side nav Side nav Side nav Side nav Side nav Side nav Side nav Side nav Side nav -->
+<aside class="sidenav">
+  <div class="sidenav__brand">
+    <!-- <i class="fas fa-feather-alt sidenav__brand-icon"></i> -->
+    <a class="sidenav__brand-link" href="/index.html" style="font-size: 2em;">Aspire<span
+        class="text-light"></span></a>
+    <i class="fas fa-times sidenav__brand-close"></i>
+  </div>
+  <div class="sidenav__profile">
+    <div class="sidenav__profile-avatar"></div>
+    <div class="sidenav__profile-title text-light">Nigel Msipa</div>
+  </div>
+  <div class="row row--align-v-center row--align-h-center">
+    <ul class="navList">
+      <li class="navList__heading">Training<i class="far fa-clipboard"></i></li>
+      <li>
+        <div class="navList__subheading row row--align-v-center">
+          <span class="navList__subheading-icon"><i class="fa fa-id-card-alt"></i></span>
+          <span class="navList__subheading-title">Data Collection</span>
+        </div>
+        <ul class="subList subList--hidden">
+          <li class="subList__item"> <a href="/send_intake_form.html">Send intake form</a>
+          </li>
+          <li class="subList__item"><a href="/view_completed_form.html">View completed
+              forms</a> </li>
+          <li class="subList__item"><a href="/viewpendingforms.html">View Pending
+              forms</a> </li>
+        </ul>
+      </li>
+      <li>
+        <div class="navList__subheading row row--align-v-center">
+          <span class="navList__subheading-icon"><i class="far fa-clipboard"></i></span>
+          <span class="navList__subheading-title">Program Design</span>
+        </div>
+        <ul class="subList subList--hidden">
+          <li class="subList__item"> <a href="/Design_program.html">Design Program</a></li>
+          <li class="subList__item"> <a href="/trainingtemplates.html">Training Templates</a></li>
+        
+
+        </ul>
+      </li>
+      <li>
+        <div class="navList__subheading row row--align-v-center">
+          <span class="navList__subheading-icon"><i class="fas fa-running"></i></span>
+          <span class="navList__subheading-title">Workout Log</span>
+        </div>
+        <ul class="subList subList--hidden">
+          <li class="subList__item"> <a href="#">Record Workout</a></li>
+          <li class="subList__item"> <a href="/trainingtemplates.html"> Fitness assesment</a></li>
+          <li class="subList__item"> <a href="/Normative_data.html"> Normative Data</a></li>
+          <li class="subList__item"> <a href="#"> Exersice Database</a></li>
+          <li class="subList__item"> <a href="#"> Archive</a></li>
+         
+    
+        </ul>
+      </li>
+      <li class="navList__heading">Team<i class="fas fa-users"></i></li>
+      <li>
+        <div class="navList__subheading row row--align-v-center">
+          <span class="navList__subheading-icon"> <i class="fa fa-comment" aria-hidden="true"></i>
+
+          </span>
+          <span class="navList__subheading-title">Chat</span>
+        </div>
+        <ul class="subList subList--hidden">
+          <li class="subList__item"> <a href="#"> Send Message</a></li>
+          <li class="subList__item"> <a href="#"> Notes</a></li>
+    
+        </ul>
+      </li>
+      
+
+     
+
+      <li class="navList__heading">Settings<i class="fas fa-cog"></i></li>
+      <li>
+        <div class="navList__subheading row row--align-v-center">
+          <span class="navList__subheading-icon"><i class="fas fa-cog"></i></span>
+          <span class="navList__subheading-title">Settings</span>
+        </div>
+        <ul class="subList subList--hidden">
+          <li class="subList__item"> <a href="#"> Settings</a></li>
+
+        </ul>
+      </li>
+      <li>
+        <div class="navList__subheading row row--align-v-center">
+          <span class="navList__subheading-icon"><i class="fas fa-moon"></i></span>
+          <span class="navList__subheading-title">Dark mode</span>
+        </div>
+        <ul class="subList subList--hidden">
+          <li class="subList__item"> <a href="#"> Darkmode</a></li>
+
+        </ul>
+      </li>
+
+<!--  Side nav Side nav Side nav Side nav Side nav Side nav Side nav Side nav Side nav Side nav Side nav -->
+
+<!--  Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main -->
+      
+    </aside>
+
+    <main class="main">
+
+      <div class="main-overview">
+
+      <div class="main__cards">
+     
+        <div class="card">
+          <div class="card__header">
+            <div class="card__header-title text-light">Send <strong>Intake Form</strong>
+              <!-- <a href="#" class="card__header-link text-bold"> View sent </a> -->
+            </div>
+          
+          </div>
+          <div class="card">
+            <!--  Send intake form  Send intake form Send intake form Send intake form Send intake form Send intake form Send intake form -->
+            <div class="container">
+              <div class="container__item">
+                <div class="spacefiller"></div>
+                <form class="form">
+                  <input type="email" class="form__field" placeholder="Client E-Mail Address" />
+                  <button type="button" class="btn btn--primary btn--inside uppercase">Send</button>
+                </form>
+                <div class="spacefiller"></div>
+              </div>
+              
+              <div class="container__item container__item--bottom">
+                
+              </div>
+              
+          </div>
+        </div>
+
+    </main>
+<!--  Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main Main -->
+<!--  footer footer footer footer footer footer footer footer footer footer footer footer footer -->
+    <footer class="footer">
+      <p><span class="footer__copyright">&copy;</span> 2020 MTH</p>
+      <p>Made with <i class="fas fa-heart footer__icon"></i> by <a href="https://photos.app.goo.gl/Hfrl98N64Oz9IFuF2"
+          target="_blank" class="footer__signature">Nigel Msipa</a></p>
+    </footer>
+    <!--  footer footer footer footer footer footer footer footer footer footer footer footer footer -->
+  </div>
+  </div>
+
+  <script src="/scripts/sendintakeform.js"></script>
+  <script src="/scripts/script.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+  <script src="https://www.amcharts.com/lib/3/serial.js"></script>
+  <script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+
+</body>
+
+</html>
